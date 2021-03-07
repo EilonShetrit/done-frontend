@@ -1,0 +1,49 @@
+// @import '../../style/setup';
+.home-page{
+    background-color: #f6f8f9;
+    .main-hero{
+        flex-direction: column;
+        padding-top: 144px!important;
+        padding-bottom: 144px!important;
+        width: 100%;
+        h1{
+            justify-self: center;
+            margin: 0 0 20px 0;
+            font-size: 3.5rem;
+            // line-height: 1.285;
+        }
+        p:not(:first-child){
+            margin: 0 0 50px 0;
+            font-size: 1.4rem;
+            line-height: 1.636;
+        }
+    }
+    .btn-home{
+        justify-content: center;
+        button{
+            margin: 5px;
+        }
+    }
+    .manage{
+        padding-top: 128px!important;
+        padding-bottom: 128px!important;
+        width: 100%;
+        background-color: #fff;
+    }
+    .quate{
+        width: 100%;
+        justify-content: center;
+        svg{
+            margin-right: 10px;
+        }
+    }
+}
+.flex{
+    display: flex;
+}
+
+.container{
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+}
